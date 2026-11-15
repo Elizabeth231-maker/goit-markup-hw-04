@@ -17,8 +17,9 @@
 
 .footer-container {
   display: flex;
-  align-items: baseline; /* Вирівнює блоки по базовій лінії тексту */
+  align-items: flex-start; /* Вирівнює блоки по базовій лінії тексту */
 }
+
 .footer-info {
   margin-right: 120px; /* Відстань між колонками згідно з вимогою завдання */
   max-width: 264px;
@@ -83,6 +84,7 @@
 }
 
 .footer-social-title {
+  font-weight: 500;
   margin-bottom: 16px;
  font-size: 16px;
 line-height: 1.5;
