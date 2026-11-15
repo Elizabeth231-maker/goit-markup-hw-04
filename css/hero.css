@@ -4,6 +4,15 @@
   text-align: center;
 }
 
+.hero-wrapper {
+  background:
+    linear-gradient(180deg, rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7) ) ,
+    url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .hero-title {
   max-width: 496px;
   margin-left: auto;
